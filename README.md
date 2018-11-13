@@ -6,9 +6,18 @@ is a Python program using the **psycopg2** module to connect to the database.
 ## QuickStart
 
 This project assumes you have `psycopg2` library and `news` database installed.
-1. If not, install above requirements otherwise skip to step 2.
-2. Open the Logs Analsis folder containing `logsAnalysis.py` in terminal.
-3. Run the following command to obtain required results: <br>`$ python logsAnalysis.py`
+<ol>
+<li> If not, follow along otherwise skip to step 2.
+<ul>
+<li> Install psycopg2 using `$ pip install psycopg2`
+<li> Download data for news database
+    <a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip">here</a>
+<li>Extract newsdata.sql and cd into that directory in terminal.
+<li> Run following command in terminal `$ psql -d news -f newsdata.sql`
+</ul>
+<li> Open the Logs Analsis folder containing `logsAnalysis.py` in terminal.
+<li> Run the following command to obtain required results: <br> `$ python logsAnalysis.py`
+</ol>
 
 ## Example
 
