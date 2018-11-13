@@ -38,7 +38,7 @@ This project assumes you have `psycopg2` library and `news` database installed.
 <li>Markoff Chaney - 84557
 </ul>
 
-> Failed requests more than 1 percent of total request on followiing days:
+> Failed requests more than 1 percent of total request on following days:
 <ul>
 <li>2016-07-17 - 2.26%
 </ul>
