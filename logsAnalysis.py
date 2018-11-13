@@ -87,4 +87,4 @@ if __name__ == '__main__':
         errorPercent(cur)
         db.close()
     except psycopg2.DatabaseError, e:
-        print("Something went wrong")
+        print(e)
